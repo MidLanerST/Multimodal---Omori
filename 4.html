@@ -5,15 +5,85 @@
     <meta name="viewport" content="width=device-width">
     <title>replit</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/sidebars/">
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
-  <body>
-    Hello world
-
-
-
+  <body class="bg-secondary">
     
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<header>
+  <div class="collapse bg-dark" id="navbarHeader">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-md-7 py-4">
+          <h4 class="text-white">About</h4>
+          <p class="text-muted">Welcome to the website! This is a Multimodal project created for ENGL 3010 during Spring 2022 by me, Cole Snyder. You can find my contact information and Github with other projects on the right. Enjoy the website!</p>
+        </div>
+        <div class="col-4 col-sm-4 col-md-4">
+            <h4 class="text-white">Contact Details</h4>
+            <ul class="list-unstyled">
+                <li><a href="https://github.com/MidLanerST/" class="text-white">Github: MidLanerST</a></li>
+                <li class="text-white">Professional Email: cole.snyder.m@gmail.com</li>
+                <li class="text-white">Personal Email: midlanerplays@gmail.com</li>
+                <li class="text-white">Discord: MidLanerST#7016</li>
+            </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="navbar navbar-dark bg-dark shadow-sm">
+    <div class="container">
+      <a href="#" class="navbar-brand d-flex align-items-center">
+        <strong>Multimodal</strong>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+    <main>
+
+    <div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark maxVH" style="width: 200px;">
+      <ul class="nav nav-pills flex-column mb-auto">
+        <li class="nav-item">
+          <a href="#" class="nav-link active" aria-current="page">
+            <svg class="bi me-2" width="16" height="16"><use xlink:href="#home"></use></svg>
+            Home
+          </a>
+        </li>
+        <li>
+          <a href="#" class="nav-link text-white">
+            <svg class="bi me-2" width="16" height="16"><use xlink:href="#speedometer2"></use></svg>
+            Dashboard
+          </a>
+        </li>
+        <li>
+          <a href="#" class="nav-link text-white">
+            <svg class="bi me-2" width="16" height="16"><use xlink:href="#table"></use></svg>
+            Orders
+          </a>
+        </li>
+        <li>
+          <a href="#" class="nav-link text-white">
+            <svg class="bi me-2" width="16" height="16"><use xlink:href="#grid"></use></svg>
+            Products
+          </a>
+        </li>
+        <li>
+          <a href="#" class="nav-link text-white">
+            <svg class="bi me-2" width="16" height="16"><use xlink:href="#people-circle"></use></svg>
+            Customers
+          </a>
+        </li>
+      </ul>
+    </div>
+
+
+  
+      </main>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="script.js"></script>
   </body>
 </html>
