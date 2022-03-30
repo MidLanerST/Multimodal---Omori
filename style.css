@@ -1,3 +1,72 @@
 .maxVH {
     min-height: 100vh;
 }
+
+.darkerSecondary {
+  background-color:#343a40;
+}
+
+.centerDivPara {
+  width: 50%; 
+  margin: 0 auto;
+}
+
+.botBorder {
+  border-bottom: solid white 1px;
+  margin-bottom: 50px;
+}
+
+.leftImage {
+  margin-right: 25px;
+  float: left;
+}
+
+.rightImage {
+  margin-left: 25px;
+  float: right;
+}
+
+.pImage {
+  word-wrap: break-word;
+  width: 90%;
+  
+}
+
+p {
+  font-size: 20px;
+}
+
+.clearDiv {
+  clear: both;
+  margin-bottom: 15px;
+  padding: 5px;
+  overflow: hidden;
+}
+
+.pList
+{
+  font-size: 20px;
+  color: white;
+}
+
+.pFooter {
+  font-size: 16px;
+  color: white;
+  float: right;
+  
+}
+
+.darkFooter {
+  border-top: solid white 1px;
+  padding: 0.75% 10% 0.75% 0%;
+}
+
+.footerLink {
+  color: white;
+  text-decoration: none;
+}
+
+.footerLink:hover, footerLink:active {
+  color: white;
+  text-dectoration: underline;
+}
