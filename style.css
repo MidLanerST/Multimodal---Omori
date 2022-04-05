@@ -70,3 +70,13 @@ p {
   color: white;
   text-dectoration: underline;
 }
+
+.pfp {
+  border-radius: 50%;
+}
+
+.cropped {
+width: 40%; 
+height: 40%; 
+overflow: hidden;
+}
